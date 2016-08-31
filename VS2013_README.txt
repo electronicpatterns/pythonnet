@@ -16,6 +16,9 @@ Note: The solution project requires the following NuGet dependencies in order to
 Depending on your local Visual Studio configuration, you may need to open Solution Explorer, then right-click on top-level Solution and select Enable NuGet Package Restore 
 to download dependencies prior to building.
 
+Once C# 6.0 language support is enabled, the solution will compile correctly but editor windows will continue to show red error lines underneath C# 6.0 specific features. The editor
+still relies on the older built-in parser even after C# 6.0 is installed. These pseudo-errors can be safely ignored.
+
 Available configurations
 ------------------------
 
